@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lemon";
+}
+
+body{
+  background-color: rgba(0, 48, 31, 1)
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+
+.retornar {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+.girafa {
+    display: flex;
+    align-items: center;
+}
+
+.girafa img {
+    width: 30%; 
+}
+
+.acc {
+    margin: 0;
+    color: white;
+    font-size: 150%;
+}
+
+.log{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 4%;
+    border-radius: 0px;
+   
+}
+
+#sla{
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(217, 217, 217, 1);
+    outline: none;
+    
+}
+
+#sla2{
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(217, 217, 217, 1);
+    outline: none;
+    
+}
+
+#aaa{
+
+    display:inline-block;       /* coloca os botões em linha */
+    align-items: center;
+    gap: 20px;            /* espaço entre eles */
+    justify-content: center; /* centraliza os botões */
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.5);
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+
+.loginn{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.log input{
+    margin-top: 10px;
+    background-color: #252a34;
+    padding-left: 10px;
+    color: black;
+    border: none;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: azure;
+    font-size: 15px;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 13px;
+}
+.madeira{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.girafa {
+    gap: 10%;
+    padding: 0.5%;
+}
+
+.acc{
+   color: white;
+}
+
+
+footer {
+    
+    color: #fff;
+    padding: 20px 10%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
